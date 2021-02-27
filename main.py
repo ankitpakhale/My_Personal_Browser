@@ -1,9 +1,7 @@
 import sys
-
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtWebEngineWidgets import *
-
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -13,7 +11,6 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self.browser)
         self.showMaximized()
 
-        
         # Navbar
         navbar = QToolBar()
         self.addToolBar(navbar)
